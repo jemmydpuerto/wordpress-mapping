@@ -1,0 +1,25 @@
+*Busiprof Resources 
+->	Images are used in the theme as place holder images are taken from dummyimage.com 
+	URl: http://dummyimage.com/1600x400/f2e6f2/000333 (Slide Image)
+	URI : http://dummyimage.com/270x170/f2e6f2/000333 (Recent Projects)
+	URI : http://dummyimage.com/80x80/f2e6f2/000333  (Testimonials And Blog Sections)
+	
+-> jquery is LICENSED under MIT-LICENSE	.
+	license URI : https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+
+-> Twitter Bootstrap Framework's code licensed under Apache License v2.0.
+	license URI : http://www.apache.org/licenses/LICENSE-2.0
+	
+-> WordPress license URI : http://wordpress.org/about/license/
+	
+-> Fonts Used in Theme
+		Montserrat Fonts 
+		license URI :http://scripts.sil.org/OFL
+		
+		Droid Serif Fonts
+		license URI :http://www.apache.org/licenses/LICENSE-2.0.html
+		
+		Droid Sans Fonts
+		license URI:http://www.apache.org/licenses/LICENSE-2.0.html
+		
+**It is declare that all the resources are used in the theme is under GPL and any one can use it and customize these according his need .User is free to use and free to distribute the resources. 		

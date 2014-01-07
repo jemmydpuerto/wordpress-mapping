@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Busiprof\n"
+"POT-Creation-Date: 2013-10-17 19:56+0530\n"
+"PO-Revision-Date: 2013-10-17 19:56+0530\n"
+"Last-Translator: hari maliya <hsmaliya15888@gmail.com>\n"
+"Language-Team: Webriti\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "Unfortunately, the page you tried accessing could not be retrieved. "
+msgstr "दुर्भाग्य से, आप तक पहुँचने की कोशिश की पृष्ठ प्राप्त नहीं किया जा सकता है."
+
+#: 404.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: archive.php:28
+msgid "Daily Archives: "
+msgstr ""
+
+#: archive.php:30
+msgid "Monthly Archives: "
+msgstr ""
+
+#: archive.php:32
+msgid "Yearly Archives: "
+msgstr ""
+
+#: archive.php:34
+msgid "Blog Archives: "
+msgstr ""
+
+#: archive.php:45
+msgid "no title"
+msgstr ""
+
+#: archive.php:52 author.php:61 blog.php:39 index.php:40 page.php:39
+#: search.php:41 single.php:29
+msgid "Leave a comment"
+msgstr ""
+
+#: archive.php:65 author.php:67 blog.php:49 category.php:23 index.php:50
+#: page.php:48 search.php:47 single.php:39
+msgid "Read More"
+msgstr ""
+
+#: author.php:24
+msgid "Author Archives : "
+msgstr ""
+
+#: author.php:42
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: banner-header.php:33
+msgid "Search"
+msgstr ""
+
+#: blog.php:52 index.php:53 page.php:51
+msgid "Tags:"
+msgstr ""
+
+#: category.php:10
+msgid "Category  Archives:"
+msgstr ""
+
+#: comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:28 comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:29 comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "You must be"
+msgstr ""
+
+#: comments.php:53
+msgid "logged in"
+msgstr ""
+
+#: comments.php:53
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:75
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:75
+msgid " Log out?"
+msgstr ""
+
+#: comments.php:77
+msgid "Submit Now"
+msgstr ""
+
+#: comments.php:79
+msgid "Leave a Comment"
+msgstr ""
+
+#: contact.php:59
+msgid "378 Kingston Court"
+msgstr ""
+
+#: contact.php:59
+msgid "West New York, NJ 07093"
+msgstr ""
+
+#: contact.php:60
+msgid "Phone : 973-960-4715"
+msgstr ""
+
+#: contact.php:61
+msgid "Fax : 0276-758645"
+msgstr ""
+
+#: contact.php:62
+msgid "Email"
+msgstr ""
+
+#: contact.php:63
+msgid "Website"
+msgstr ""
+
+#: contact.php:69
+msgid "Drop a line for us"
+msgstr ""
+
+#: contact.php:96
+msgid "Please Enter Your Name<br>"
+msgstr ""
+
+#: contact.php:102
+msgid "Please Enter Valid Name<br>"
+msgstr ""
+
+#: contact.php:108
+msgid "Please Enter E-mail<br>"
+msgstr ""
+
+#: contact.php:115
+msgid "Please Enter Valid E-Mail<br>"
+msgstr ""
+
+#: contact.php:140
+msgid "Thank  you!"
+msgstr ""
+
+#: contact.php:140
+msgid "You successfully sent contact information..."
+msgstr ""
+
+#: contact.php:168
+msgid "View Larger Map"
+msgstr ""
+
+#: footer.php:80
+msgid " Powered by "
+msgstr "द्वारा संचालित"
+
+#: footer.php:81
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:81
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:83
+msgid "Designed by"
+msgstr ""
+
+#: footer.php:84
+msgid "http://www.webriti.com/"
+msgstr ""
+
+#: footer.php:84
+msgid "Webriti &copy;"
+msgstr ""
+
+#: footer.php:85
+msgid "All Rights Reserved."
+msgstr ""
+
+#: functions.php:42
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:114
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:145
+msgid " Sidebar"
+msgstr ""
+
+#: functions.php:147
+msgid "The primary widget area"
+msgstr ""
+
+#: functions.php:155
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:157
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:164
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:166
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:173
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:175
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:184
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:186
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: index-slider.php:26 theme_setup_data.php:26 theme_setup_data.php:97
+msgid "Busiprof With Responsive Design"
+msgstr ""
+
+#: index-slider.php:31
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome wordpress themes with amazing support and ...."
+msgstr ""
+"हम वास्तव में अद्भुत समर्थन और साथ भयानक WordPress विषयों बनाने के लिए जो प्यार भावुक "
+"डिजाइनरों और डेवलपर्स के एक समूह रहे हैं ...."
+
+#: index-testimonials.php:62
+msgid "NO POST TO DISPLAY..."
+msgstr ""
+
+#: search.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:57
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:58
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: theme_setup_data.php:23 theme_setup_data.php:95
+msgid "Backend as a Service Plateform for Any App Developer"
+msgstr ""
+
+#: theme_setup_data.php:27 theme_setup_data.php:98
+#, fuzzy
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome wordpress themes with amazing support and .."
+msgstr ""
+"हम वास्तव में अद्भुत समर्थन और साथ भयानक WordPress विषयों बनाने के लिए जो प्यार भावुक "
+"डिजाइनरों और डेवलपर्स के एक समूह रहे हैं ...."
+
+#: theme_setup_data.php:29 theme_setup_data.php:100
+msgid "Awesome"
+msgstr ""
+
+#: theme_setup_data.php:30 theme_setup_data.php:101
+msgid "Services"
+msgstr ""
+
+#: theme_setup_data.php:31 theme_setup_data.php:57 theme_setup_data.php:102
+#: theme_setup_data.php:124
+#, fuzzy
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome wordpress themes & support"
+msgstr ""
+"हम वास्तव में अद्भुत समर्थन और साथ भयानक WordPress विषयों बनाने के लिए जो प्यार भावुक "
+"डिजाइनरों और डेवलपर्स के एक समूह रहे हैं ...."
+
+#: theme_setup_data.php:38 theme_setup_data.php:39 theme_setup_data.php:40
+#: theme_setup_data.php:41 theme_setup_data.php:109 theme_setup_data.php:110
+#: theme_setup_data.php:111 theme_setup_data.php:112
+msgid "Web Design"
+msgstr ""
+
+#: theme_setup_data.php:43 theme_setup_data.php:44 theme_setup_data.php:45
+#: theme_setup_data.php:46 theme_setup_data.php:114 theme_setup_data.php:115
+#: theme_setup_data.php:116 theme_setup_data.php:117
+#, fuzzy
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome wordpress themes"
+msgstr ""
+"हम वास्तव में अद्भुत समर्थन और साथ भयानक WordPress विषयों बनाने के लिए जो प्यार भावुक "
+"डिजाइनरों और डेवलपर्स के एक समूह रहे हैं ...."
+
+#: theme_setup_data.php:49 theme_setup_data.php:120
+msgid "More Services"
+msgstr ""
+
+#: theme_setup_data.php:55 theme_setup_data.php:122
+msgid "Recent"
+msgstr ""
+
+#: theme_setup_data.php:56 theme_setup_data.php:123
+msgid "Projects"
+msgstr ""
+
+#: theme_setup_data.php:59 theme_setup_data.php:64 theme_setup_data.php:69
+#: theme_setup_data.php:74 theme_setup_data.php:126 theme_setup_data.php:132
+#: theme_setup_data.php:137 theme_setup_data.php:142
+msgid "Business Cards"
+msgstr ""
+
+#: theme_setup_data.php:61 theme_setup_data.php:66 theme_setup_data.php:71
+#: theme_setup_data.php:76 theme_setup_data.php:128 theme_setup_data.php:134
+#: theme_setup_data.php:139 theme_setup_data.php:144
+msgid "Graphic Design & Web Design"
+msgstr ""
+
+#: theme_setup_data.php:147
+#: functions/theme_options/home_page_testimonials.php:46
+msgid "Testimonials"
+msgstr ""
+
+#: theme_setup_data.php:148
+msgid "We are a group of passionate designers & developers"
+msgstr ""
+
+#: theme_setup_data.php:151 theme_setup_data.php:156
+#, fuzzy
+msgid ""
+"We are group of passionate designers and developers who really love to "
+"create awesome wordpress themes with amazing support & cooles video "
+"documentations..."
+msgstr ""
+"हम वास्तव में अद्भुत समर्थन और साथ भयानक WordPress विषयों बनाने के लिए जो प्यार भावुक "
+"डिजाइनरों और डेवलपर्स के एक समूह रहे हैं ...."
+
+#: theme_setup_data.php:152
+msgid "Hari maliya"
+msgstr ""
+
+#: theme_setup_data.php:153 theme_setup_data.php:158
+msgid "Web Developer"
+msgstr ""
+
+#: theme_setup_data.php:157
+msgid "Faraz Khan"
+msgstr ""
+
+#: theme_setup_data.php:160
+#: functions/theme_options/home_page_testimonials.php:133
+msgid "Recent Blog"
+msgstr ""
+
+#: theme_setup_data.php:161
+msgid "We are a group of passionate designers &amp; developers"
+msgstr ""
+
+#: functions/commentbox/comment-function.php:31
+msgid "Reply"
+msgstr ""
+
+#: functions/commentbox/comment-function.php:40
+#, php-format
+msgid "<cite class=\"author\">%s</cite>"
+msgstr ""
+
+#: functions/commentbox/comment-function.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr ""
+
+#: functions/Pagination/pagination.php:23
+msgid "Previous"
+msgstr ""
+
+#: functions/Pagination/pagination.php:37
+msgid "Next"
+msgstr "अगला"
+
+#: functions/theme_options/home_page_contact_form.php:1
+msgid "Contact google Map"
+msgstr ""
+
+#: functions/theme_options/home_page_contact_form.php:1
+msgid "Google map Url"
+msgstr ""
+
+#: functions/theme_options/home_page_contact_form.php:1
+msgid "Enter your contact address google map url"
+msgstr ""
+
+#: functions/theme_options/home_page_contact_form.php:1
+#: functions/theme_options/home_page_project.php:212
+#: functions/theme_options/home_page_testimonials.php:155
+#: functions/theme_options/theme_home_page.php:1
+msgid "Save Changes"
+msgstr ""
+
+#: functions/theme_options/home_page_contact_form.php:1
+#: functions/theme_options/home_page_project.php:213
+#: functions/theme_options/home_page_testimonials.php:156
+#: functions/theme_options/theme_home_page.php:1
+msgid "Restore Defaults"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:54
+msgid "Recent Projects"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:57
+msgid "Home Project Heading One"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:60
+msgid "Enter home project heading one"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:63
+msgid "Home Project Heading Two"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:66
+msgid "Enter home project heading two"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:69
+#: functions/theme_options/home_page_project.php:103
+#: functions/theme_options/home_page_project.php:135
+#: functions/theme_options/home_page_project.php:167
+#: functions/theme_options/home_page_project.php:200
+msgid "Project Tagline"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:72
+msgid "Enter home project tagline"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:80
+msgid "Projects One"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:83
+msgid "Projectt title one"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:86
+msgid "Enter home project title one"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:89
+msgid "Project thumb one"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:93
+msgid "Enter home project thumb one 495 x 265"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:96
+#: functions/theme_options/home_page_project.php:128
+#: functions/theme_options/home_page_project.php:160
+#: functions/theme_options/home_page_project.php:192
+msgid "Project text "
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:99
+#: functions/theme_options/home_page_project.php:163
+#: functions/theme_options/home_page_project.php:195
+msgid "Enter project description"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:105
+msgid "Enter project one url"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:112
+msgid "Projects Two"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:115
+msgid "Projectt title two"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:118
+#: functions/theme_options/home_page_project.php:150
+#: functions/theme_options/home_page_project.php:182
+msgid "Enter project title"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:121
+msgid "Project thumb two"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:125
+msgid "Enter project thumb 495 X 265"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:131
+msgid "Enter description"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:137
+#: functions/theme_options/home_page_project.php:169
+#: functions/theme_options/home_page_project.php:202
+msgid "Enter project teo url"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:144
+msgid "Projects Three"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:147
+msgid "Projectt title three"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:153
+msgid "Project thumb three"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:157
+msgid "Enter project thumb 495 x 265"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:176
+msgid "Projects Four"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:179
+msgid "Projectt title four"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:185
+msgid "Project thumb four"
+msgstr ""
+
+#: functions/theme_options/home_page_project.php:189
+msgid "Enter project thumb 495 x 262"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:49
+msgid "Testimonials title"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:52
+msgid "Enter testimonials title"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:55
+msgid "Testimonials description"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:58
+msgid "Enter testimonials description"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:66
+msgid "Testimonials One"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:69
+#: functions/theme_options/home_page_testimonials.php:103
+msgid "Testimonials Image"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:73
+msgid "image must be in 60 X 250"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:77
+#: functions/theme_options/home_page_testimonials.php:110
+msgid "Testimonials text"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:80
+msgid "Enter testimominals"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:83
+#: functions/theme_options/home_page_testimonials.php:116
+msgid "Testimonials name"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:86
+msgid "Enter Testimonials name"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:89
+#: functions/theme_options/home_page_testimonials.php:122
+msgid "Testimonials Designation"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:92
+msgid "Enter Testimonials designation"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:100
+msgid "Testimonials Two"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:107
+msgid "Image must be in 60 X 250 px"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:113
+msgid "Enter Testimonials descriptions"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:119
+msgid "Enter testimonials name"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:125
+msgid "Enter testimonials designations"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:136
+msgid "Recent blog title"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:139
+msgid "Enter recent blog title"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:142
+msgid "Recent blog description"
+msgstr ""
+
+#: functions/theme_options/home_page_testimonials.php:145
+msgid "Enter recent blog desccriptions"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Logo Must be in 60 X 250 px"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Fevico Icon Use .ico files or 32 X 32 px"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Image"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Slider Head Title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the Slide Image Header"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Slide Image"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Use Image of 1440 X 885 px for better view"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Image Caption "
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter Caption for The Home Image"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Image Caption Description "
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter Description for The Home Image"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Heading"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Heading One"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the Service Heading One"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Heading Two"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the Service Heading Two"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Tagline  Description"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter Description for Tagline"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service One"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service One Icon"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service One Title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the service one title "
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service One Description"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter description for service one "
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service Two"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service Two Icon"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the service heading two"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service two Title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the service two title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service two Description"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter description for service two"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service three"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service Three Icon"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the service heading three"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service Three Title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the service three title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Three Description"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter  description for sevice three"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service four"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service four Icon"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the serive heading four"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Home Page Service Four Title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter the serive four title"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Service Four Description"
+msgstr ""
+
+#: functions/theme_options/theme_home_page.php:1
+msgid "Enter description for service four"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:3
+msgid "Support"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:5
+msgid "busiprof Documentation"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "The best way to contact me with"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "support questions"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "and"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "bug reports"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "is via the"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:6
+msgid "WordPress support forums"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:7
+msgid "If you like this theme, I'd appreciate any of the following:"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:9
+msgid "Rate busiprof at"
+msgstr ""
+
+#: functions/theme_options/theme_option_sidbar.php:10
+msgid "Donate a token of your appreciation"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Upgrade to busiprof Pro!"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "All features plus"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Custom Typography, Fully Responsive, Filterable Portfolio"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "and much more!"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Buy now!"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Home Page"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Home Project"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Home Testmonials"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Contact Form"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "This theme recommends the following plugin :"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "appointment calendar"
+msgstr "नियुक्ति कैलेंडर"
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Begin installing plugin"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Home Page Project"
+msgstr ""
+
+#: functions/theme_options/webr_options_pannel.php:1
+msgid "Home Page Testimonials"
+msgstr ""
