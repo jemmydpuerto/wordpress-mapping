@@ -13,12 +13,13 @@
 <!----/slide heading---->
 <!-------Slide---------->
 <?php if($current_options['slider_image']!='') {?>
-<div class="main_slider">
-	<img class="slider_img busi_slider_image" src="<?php echo $current_options['slider_image']; ?>">
+<div class="main_slider" style = "height: 400px">
+	<!-- <img class="slider_img busi_slider_image" src="<?php echo $current_options['slider_image']; ?>"> -->
 	<?php } ?>
-	
+		<div id="map-canvas"/>
 			<!--Caption Block---->
-			<div class="row-fluid slider_desc">
+
+			<!-- <div class="row-fluid slider_desc">
 				<div class="span5 offset7 slide_content">
 				<?php if($current_options['caption_head']!='') {?>
 				<h2><?php echo $current_options['caption_head'] ?></h2>
@@ -31,5 +32,5 @@
 				<p><?php _e("We are a group of passionate designers and developers who really love to create awesome wordpress themes with amazing support and ....",'busi_prof') ?></p>
 				<?php } ?>
 				</div>
-			</div>
+			</div> -->
 </div>
