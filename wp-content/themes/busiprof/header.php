@@ -37,17 +37,52 @@
 			      #map-canvas { height: 100% }
 			    </style>
 			    <script type="text/javascript"
-			      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRErrKyC1GbuTlerdBY3X3ykv_WrMqLRM&sensor=false">
+			      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRErrKyC1GbuTlerdBY3X3ykv_WrMqLRM&sensor=false&libraries=places">
 			    </script>
 			    <script type="text/javascript">
+
+			   		var geocoder = new google.maps.Geocoder(), map = null, infowindow = null;
+
 			      function initialize() {
+			      	var centerLoc = new google.maps.LatLng(-33.8665433, 151.1956316);
 			        var mapOptions = {
-			          center: new google.maps.LatLng(-34.397, 150.644),
-			          zoom: 8
+			          center: centerLoc,
+			          zoom: 15
 			        };
-			        var map = new google.maps.Map(document.getElementById("map-canvas"),
+			        map = new google.maps.Map(document.getElementById("map-canvas"),
 			            mapOptions);
+
+			          var request = {
+					    location: centerLoc,
+					    radius: 1000,
+					    types: ['store']
+					  };
+					  infowindow = new google.maps.InfoWindow();
+					  var service = new google.maps.places.PlacesService(map);
+					  service.nearbySearch(request, callback);
 			      }
+
+			      function callback(results, status) {
+				  if (status == google.maps.places.PlacesServiceStatus.OK) {
+				    for (var i = 0; i < results.length; i++) {
+				      createMarker(results[i]);
+				    }
+				  }
+				}
+
+				function createMarker(place) {
+				  var placeLoc = place.geometry.location;
+				  var marker = new google.maps.Marker({
+				    map: map,
+				    position: place.geometry.location
+				  });
+
+				  google.maps.event.addListener(marker, 'click', function() {
+				    infowindow.setContent(place.name);
+				    infowindow.open(map, this);
+				  });
+				}
+
 			      google.maps.event.addDomListener(window, 'load', initialize);
 			    </script>
 
