@@ -51,6 +51,8 @@ define('SECURE_AUTH_SALT', 'x[+p.E_Ju!8vnp!zJ8L%Dnz~^+QM2cs:!Vbc(+#@7|dms!cNGy(@
 define('LOGGED_IN_SALT',   'Mgl>rDIliGo.de3?>kb>iL$hHjWh=^Qa8m}3pEeG||$Qs+=QD@Za`{0^) Z{.yxy');
 define('NONCE_SALT',       'uX^] hY|*{+iS,DL;vnHue9OpD;sjU*?>:Km{u,=oHv85D{ `#a=*WzaIB$>Fq{s');
 
+define('SEARCH_TEXT',       'Find what?');
+
 /**#@-*/
 
 /**

@@ -8,17 +8,25 @@
 	<button class = "btn pull-left btn-info" id = "findMe">Find me</button>
 
 	<div class="container">
-		Search text place here...
+		
+
+		<input type = "text" placeholder = "<?php echo SEARCH_TEXT ?>" id = "searchPlace" class = "typeahead">
+		<!-- <input type="text" placeholder="countries" class="typeahead tt-query" autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top; background-color: transparent;" dir="auto"> -->
+</div>
 		<?php //echo $current_options['slider_head_title'] ?>
 	</div>
 	<?php } ?>
 </div>	
-<!----/slide heading---->
-<!-------Slide---------->
+
 <?php if($current_options['slider_image']!='') {?>
-<div class="main_slider" style = "height: 400px">
+<div class="main_slider" style = "height: 500px">
 	<!-- <img class="slider_img busi_slider_image" src="<?php echo $current_options['slider_image']; ?>"> -->
 	<?php } ?>
+		<div class="place-list">
+			<ul id = "places">
+			</ul>
+		</div>
+
 		<div id="map-canvas"/>
 			<!--Caption Block---->
 
@@ -39,41 +47,6 @@
 </div>
 
 <script type="text/javascript">
-var $j = jQuery;
-
-//(function($){
-
-$j('#findMe').on('click',function(){
-
-	get_location();
-	//reverseGeocoding();
-
-});
-
-
-//})(jQuery);
-//var 
-
-function get_location() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(getLatLng);
-  } else {
-    // no native support; maybe try a fallback?
-  }
-}
-
-function getLatLng(position) {
-
-	//reverseGeocoding(position.coords.latitude, position.coords.longitude);
-	var lat 	= parseFloat(position.coords.latitude);
-    var lng 	= parseFloat(position.coords.longitude);
-    var latlng 	= new google.maps.LatLng(lat,lng);
-
-	map.setCenter(latlng);
-
-	geoCodeIt(position.coords.latitude, position.coords.longitude);
-
-}
 
 function geoCodeIt( latitude, longitude ) {
 
@@ -90,20 +63,6 @@ function geoCodeIt( latitude, longitude ) {
 	  	console.log(results[0].formatted_address);
 
 	  } 
-	});
-
-}
-
-function reverseGeocoding(latitude, longitude) {
-
-	$j.ajax({
-		url: 'http://maps.googleapis.com/maps/api/geocode/json?latlng= ' + latitude + ',' + longitude + '&sensor=true',
-		dataType: 'json',
-		success: function(response) {
-
-			console.log(response);
-
-		}
 	});
 
 }

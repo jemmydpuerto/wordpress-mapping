@@ -70,6 +70,7 @@
 		</div>
 <!--closing of the footer-->
 </div>
-<?php wp_footer(); ?> 
+<?php wp_footer(); ?>
+<script type="text/javascript">protoMap.init();</script> 
 </body>
 </html>

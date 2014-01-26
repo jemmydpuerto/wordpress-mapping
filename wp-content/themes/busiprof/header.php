@@ -30,64 +30,78 @@
 			
 				<link rel="profile" href="http://gmpg.org/xfn/11" />
 				<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
-				
-				<style type="text/css">
-			      html { height: 100% }
-			      body { height: 100%; margin: 0; padding: 0 }
-			      #map-canvas { height: 100% }
-			    </style>
-			    <script type="text/javascript"
-			      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRErrKyC1GbuTlerdBY3X3ykv_WrMqLRM&sensor=false&libraries=places">
-			    </script>
-			    <script type="text/javascript">
 
-			   		var geocoder = new google.maps.Geocoder(), map = null, infowindow = null;
+			    <?php wp_head(); ?>
+			    <?php
 
-			      function initialize() {
-			      	var centerLoc = new google.maps.LatLng(-33.8665433, 151.1956316);
-			        var mapOptions = {
-			          center: centerLoc,
-			          zoom: 15
-			        };
-			        map = new google.maps.Map(document.getElementById("map-canvas"),
-			            mapOptions);
+			    	$params		=	array(
 
-			          var request = {
-					    location: centerLoc,
-					    radius: 1000,
-					    types: ['store']
-					  };
-					  infowindow = new google.maps.InfoWindow();
-					  var service = new google.maps.places.PlacesService(map);
-					  service.nearbySearch(request, callback);
-			      }
+			    		'key' 		=> 'AIzaSyDRErrKyC1GbuTlerdBY3X3ykv_WrMqLRM',
+						'sensor'	=> 'false',
+						'libraries' => 'places'
 
-			      function callback(results, status) {
-				  if (status == google.maps.places.PlacesServiceStatus.OK) {
-				    for (var i = 0; i < results.length; i++) {
-				      createMarker(results[i]);
-				    }
-				  }
-				}
+			    	);
 
-				function createMarker(place) {
-				  var placeLoc = place.geometry.location;
-				  var marker = new google.maps.Marker({
-				    map: map,
-				    position: place.geometry.location
-				  });
+			    	$strParams = '';
 
-				  google.maps.event.addListener(marker, 'click', function() {
-				    infowindow.setContent(place.name);
-				    infowindow.open(map, this);
-				  });
-				}
+			    	foreach ($params as $key => $value) {
+			    		
+			    		$strParams .= $key . '=' . $value .'&';
 
-			      google.maps.event.addDomListener(window, 'load', initialize);
-			    </script>
+			    	}
+
+			    	$strParams = substr($strParams, 0, (strlen($strParams) - 1 ) );
+
+			    ?>
+
+			    <link rel="stylesheet" type="text/css" href="<?php echo includes_url() ?>css/custom.css" media = "screen">
+
+			    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?<?php echo $strParams ?>"></script>
+			    
+
+				<script type="text/javascript" src = "<?php echo includes_url() ?>js/mapmodule/mapmodule.js"></script>
+				<script type="text/javascript" src = "<?php echo includes_url() ?>js/typeahead.js"></script>
+				<script type="text/javascript">
+
+				$(document).ready(function(){
+
+					$('input.typeahead').typeahead({
+						name: 'place_types',
+						prefetch: '<?php echo includes_url() ?>json/place_types.json',
+						limit: 5
+					});
+
+					$('#searchPlace').focus(function(){
+
+						$(this).attr('placeholder','');
+
+					});
 
 
-				<?php wp_head(); ?>
+					$('input.typeahead').on('typeahead:selected', function (object, datum) {
+					    // Example: {type: "typeahead:selected", timeStamp: 1377890016108, jQuery203017338529066182673: true, isTrigger: 3, namespace: ""...}
+					    // console.log(object);
+
+					    // Datum containg value, tokens, and custom properties
+					    // Example: {value: "@JakeHarding", tokens: ['Jake', 'Harding'], name: "Jake Harding", profileImageUrl: "https://twitter.com/JakeHaridng/profile_img"}
+					    
+					    protoMap.findNearby( new Array(datum.value) );
+
+					    
+
+					    // setVal().done(function(){
+
+					    // 	console.log('passed');
+
+					   
+
+					    // });
+							
+					});
+
+				});
+
+				</script>
 </head>
 <body <?php body_class(); ?>>
 				<div class="container">
